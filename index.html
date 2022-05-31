@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css">
+        <script defer src="./js/build.js"></script>
+    <title>WeBuild</title>
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <h1 class="logo">We<span class="logo-color">Build</span></h1>
+            <ul class="navbar-links">
+                <li><a class="navbar-link" href="#home">Home</a></li>
+                <li><a class="navbar-link" href="#about">About</a></li>
+                <li><a class="navbar-link" href="#services">Services</a></li>
+                <li><a class="navbar-link" href="#projects">Projects</a></li>
+                <li><a class="navbar-link" href="#pricing">Pricing</a></li>
+                <li><a class="navbar-link" href="#contact">Contact</a></li>
+                <li><a class="navbar-link" href="#blogs">Blogs</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <div class="hamburger">
+                    <div class="bars"></div>
+                    <div class="bars"></div>
+                    <div class="bars"></div>
+                </div>
+                <i class="fas fa-info-circle info"></i>
+                <i class="fas fa-search search"></i>
+                <i class="fas fa-user user"></i>
+            </div>
+        </nav>
+        <div class="search-bar">
+            <div class="search-bar-content">
+                <input type="search" placeholder="search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="info-container">
+            <button class="close-content">&times;</button>
+            <div class="info-content">
+                <i class="fas fa-phone"></i>
+                <h3>Phone Number</h3>
+                <p>+123-456-7890</p>
+                <p>+111-222-3333</p>
+            </div>
+            <div class="info-content">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Address</h3>
+                <p>FakeEmail@gmail.com</p>
+                <p>ThisIsFake@gmail.com</p>
+            </div>
+            <div class="info-content">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Office Address</h3>
+                <p>Philadelphia, Pennsylvania - 19380</p>
+            </div>
+            <div class="info-social">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+        <form class="login-form">
+            <div class="login-content">
+                <h2>Login Form</h2>
+                <input type="text" placeholder="Enter your email">
+                <input type="text" placeholder="Enter Your Password">
+                <div class="check">
+                    <div class="fix">
+                        <input type="checkbox">
+                        <span>Remember Me</span>
+                    </div>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button class="login-btn">Login Now</button>
+                <p>don't have an account <a href="#">create one!</a></p>
+            </div>
+        </form>
+    </header>
+    <section id="landing-page">
+        <div class="slide-container">
+            <div class="slide">
+                <img class="image" data-img="./img/home-slide-1.jpg" alt="slide-img-1">
+                <div class="img-content">
+                    <h2>WE PROVIDE BEST QUALITY</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit, incidunt quam placeat fuga
+                        deleniti.</p>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="image" data-img="./img/home-slide-2.jpg" alt="slide-img-2">
+                <div class="img-content">
+                    <h2>MAKING DREAMS COME TO LIFE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit, incidunt quam placeat fuga
+                        deleniti.</p>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="image" data-img="./img/home-slide-3.jpg" alt="slide-img-3">
+                <div class="img-content">
+                    <h2>FROM CONCEPT TO CREATION</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit, incidunt quam placeat fuga
+                        deleniti.</p>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+            <i class="fas fa-chevron-left left"></i>
+            <i class="fas fa-chevron-right right"></i>
+        </div>
+    </section>
+    <section id="about">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>About Us</h2>
+        </div>
+        <div class="about-container">
+            <div class="vid">
+                <video class="image" data-img="./img/about-vid.mp4" muted autoplay loop></video>
+            </div>
+            <div class="about-text">
+                <h2>We Will Provide You The Best Work Which You Dreamt For!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi soluta laudantium sint minus
+                    dignissimos cum ipsa, aperiam eum dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="about-promotion">
+            <div class="about-box">
+                <h2>10+</h2>
+                <p>years of experience</p>
+            </div>
+            <div class="about-box">
+                <h2>1500+</h2>
+                <p>project completed</p>
+            </div>
+            <div class="about-box">
+                <h2>750+</h2>
+                <p>satisfied clients</p>
+            </div>
+            <div class="about-box">
+                <h2>450+</h2>
+                <p>active workers</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>Our Services</h2>
+        </div>
+        <div class="service-container">
+            <div class="service-box">
+                <img class="image" data-img="./img/service-1-min.png" alt="service-1">
+                <h3>Building Construction</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-2-min.png" alt="service-2">
+                <h3>House Renovation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-3-min.png" alt="service-3">
+                <h3>Architecture Design</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-4-min.png" alt="service-4">
+                <h3>Material Supply</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-5-min.png" alt="service-5">
+                <h3>Construction Consultant</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-6-min.png" alt="service-6">
+                <h3>Interior Design</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-7-min.png" alt="service-7">
+                <h3>Building Maintenance</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service-box">
+                <img class="image" data-img="./img/service-8-min.png" alt="service-8">
+                <h3>Building Renovation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>Our Projects</h2>
+        </div>
+        <div class="projects-container">
+            <div class="project-content">
+                <img class="image" data-img="./img/project-1.jpg" alt="project-1">
+                <div class="wix">
+                    <div class="content">
+                        <h3>Dream Home</h3>
+                        <p>Design Construction</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <img class="image" data-img="./img/project-2.jpg" alt="project-2">
+                <div class="wix">
+                    <div class="content">
+                        <h3>Dream Home</h3>
+                        <p>Design Construction</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <img class="image" data-img="./img/project-3.jpg" alt="project-3">
+                <div class="wix">
+                    <div class="content">
+                        <h3>Dream Home</h3>
+                        <p>Design Construction</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <img class="image" data-img="./img/project-4.jpg" alt="project-4">
+                <div class="wix">
+                    <div class="content">
+                        <h3>Dream Home</h3>
+                        <p>Design Construction</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <img class="image" data-img="./img/project-5.jpg" alt="project-5">
+                <div class="wix">
+                    <div class="content">
+                        <h3>Dream Home</h3>
+                        <p>Design Construction</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <img class="image" data-img="./img/project-6.jpg" alt="project-6">
+                <div class="wix">
+                    <div class="content">
+                        <h3>Dream Home</h3>
+                        <p>Design Construction</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>Our Pricing</h2>
+        </div>
+        <div class="price-container">
+            <div class="price-box">
+                <i class="fas fa-home"></i>
+                <h4>Basic Plan</h4>
+                <h2>$150/mo</h2>
+                <p>interior design</p>
+                <p>refurbishment</p>
+                <p>material supply</p>
+                <p>maintenance</p>
+                <p>24/7</p>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="price-box">
+                <i class="fas fa-building"></i>
+                <h4>Premium Plan</h4>
+                <h2>$650/mo</h2>
+                <p>interior design</p>
+                <p>refurbishment</p>
+                <p>material supply</p>
+                <p>maintenance</p>
+                <p>24/7</p>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="price-box">
+                <i class="fas fa-city"></i>
+                <h4>Ultimate Plan</h4>
+                <h2>$1500/mo</h2>
+                <p>interior design</p>
+                <p>refurbishment</p>
+                <p>material supply</p>
+                <p>maintenance</p>
+                <p>24/7</p>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+    <section id="clients">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>Clients Review</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="review-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio quia quod modi sequi qui
+                            labore omnis
+                            repellat ex in. Ex, natus. Laudantium totam numquam eos inventore et provident eligendi?
+                        </p>
+                        <div class="review">
+                            <img class="image" data-img="./img/pic-1.png" alt="review-1">
+                            <div class="name">
+                                <h2>John Deo</h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio quia quod modi sequi qui
+                            labore omnis
+                            repellat ex in. Ex, natus. Laudantium totam numquam eos inventore et provident eligendi?
+                        </p>
+                        <div class="review">
+                            <img class="image" data-img="./img/pic-2.png" alt="review-2">
+                            <div class="name">
+                                <h2>John Deo</h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio quia quod modi sequi qui
+                            labore omnis
+                            repellat ex in. Ex, natus. Laudantium totam numquam eos inventore et provident eligendi?
+                        </p>
+                        <div class="review">
+                            <img class="image" data-img="./img/pic-3.png" alt="review-3">
+                            <div class="name">
+                                <h2>John Deo</h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio quia quod modi sequi qui
+                            labore omnis
+                            repellat ex in. Ex, natus. Laudantium totam numquam eos inventore et provident eligendi?
+                        </p>
+                        <div class="review">
+                            <img class="image" data-img="./img/pic-4.png" alt="review-4">
+                            <div class="name">
+                                <h2>John Deo</h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio quia quod modi sequi qui
+                            labore omnis
+                            repellat ex in. Ex, natus. Laudantium totam numquam eos inventore et provident eligendi?
+                        </p>
+                        <div class="review">
+                            <img class="image" data-img="./img/pic-5.png" alt="review-5">
+                            <div class="name">
+                                <h2>John Deo</h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio quia quod modi sequi qui
+                            labore omnis
+                            repellat ex in. Ex, natus. Laudantium totam numquam eos inventore et provident eligendi?
+                        </p>
+                        <div class="review">
+                            <img class="image" data-img="./img/pic-6.png" alt="review-6">
+                            <div class="name">
+                                <h2>John Deo</h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12231.761134537735!2d-75.6058260670772!3d39.965087816721805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6f11a41920a1b%3A0x6b87c82bc39cd2c!2sThe%20Games%20Keep%2C%20LLC!5e0!3m2!1sen!2sus!4v1644201831528!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <form action="" class="contact-form">
+                <h2>Get In Touch</h2>
+                <div class="form-group">
+                    <input id="fullName" type="text" placeholder="Name...">
+                    <small></small>
+                </div>
+                <div class="form-group">
+                    <input id="email" type="email" placeholder="Email...">
+                    <small></small>
+                </div>
+                <div class="form-group">
+                    <input id="phone" type="tel" placeholder="Phone...">
+                    <small></small>
+                </div>
+                <textarea rows="3" placeholder="Message..."></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section id="blogs">
+        <div class="heading">
+            <div class="color-bar"></div>
+            <h2>Our Blogs</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="blogs-container">
+                        <div class="blog-box">
+                            <img class="image" data-img="./img/blog-1.jpg" alt="blog-1">
+                            <div class="blog-content">
+                                <h2>Blog Title Goes Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, perferendis.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogs-container">
+                        <div class="blog-box">
+                            <img class="image" data-img="./img/blog-2.jpg" alt="blog-2">
+                            <div class="blog-content">
+                                <h2>Blog Title Goes Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, perferendis.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogs-container">
+                        <div class="blog-box">
+                            <img class="image" data-img="./img/blog-3.jpg" alt="blog-3">
+                            <div class="blog-content">
+                                <h2>Blog Title Goes Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, perferendis.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogs-container">
+                        <div class="blog-box">
+                            <img class="image" data-img="./img/blog-4.jpg" alt="blog-4">
+                            <div class="blog-content">
+                                <h2>Blog Title Goes Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, perferendis.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogs-container">
+                        <div class="blog-box">
+                            <img class="image" data-img="./img/blog-5.jpg" alt="blog-5">
+                            <div class="blog-content">
+                                <h2>Blog Title Goes Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, perferendis.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogs-container">
+                        <div class="blog-box">
+                            <img class="image" data-img="./img/blog-6.jpg" alt="blog-6">
+                            <div class="blog-content">
+                                <h2>Blog Title Goes Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, perferendis.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="img-container">
+                        <div class="img">
+                            <img class="image" data-img="./img/client-logo-1.png" alt="client-1">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-container">
+                        <div class="img">
+                            <img class="image" data-img="./img/client-logo-2.png" alt="client-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-container">
+                        <div class="img">
+                            <img class="image" data-img="./img/client-logo-3.png" alt="client-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-container">
+                        <div class="img">
+                            <img class="image" data-img="./img/client-logo-4.png" alt="client-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-container">
+                        <div class="img">
+                            <img class="image" data-img="./img/client-logo-5.png" alt="client-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-container">
+                        <div class="img">
+                            <img class="image" data-img="./img/client-logo-6.png" alt="client-6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="footer-ul">
+            <li><a class="footer-link" href="#home">Home</a></li>
+            <li><a class="footer-link" href="#about">About</a></li>
+            <li><a class="footer-link" href="#services">Services</a></li>
+            <li><a class="footer-link" href="#projects">Projects</a></li>
+            <li><a class="footer-link" href="#pricing">Pricing</a></li>
+            <li><a class="footer-link" href="#contact">Contact</a></li>
+            <li><a class="footer-link" href="#blogs">Blogs</a></li>
+        </ul>
+        <div class="sign">
+            <p>Created by <span class="logo-color">Alex Inga</span> | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</html>
